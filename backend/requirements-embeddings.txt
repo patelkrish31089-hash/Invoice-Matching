@@ -1,0 +1,4 @@
+# Optional local sentence-embedding duplicate candidate scoring.
+# Install only when an approved sentence-transformer model is already available locally.
+# Runtime code uses local_files_only=True and never downloads a model.
+sentence-transformers>=3.0,<6.0

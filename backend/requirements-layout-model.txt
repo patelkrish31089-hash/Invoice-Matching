@@ -1,0 +1,5 @@
+# Optional local token-classification adapter. Install only alongside an approved,
+# locally stored invoice-field fine-tuned checkpoint; no pretrained weights are bundled.
+# Lower bounds exclude releases associated with known model/checkpoint advisories.
+torch>=2.13,<3.0
+transformers>=5.10.4,<6.0
